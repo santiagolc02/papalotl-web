@@ -1,0 +1,52 @@
+.quiz-modal-overlay {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it's on top */
+}
+
+.quiz-modal {
+    height: auto;
+    width: 50vw;
+    background-color: rgb(50, 50, 50);
+    border-radius: 10px; /* Optional: adds rounded corners */
+    padding: 20px; /* Optional: adds padding inside the modal */
+    box-sizing: border-box;
+    z-index: 1001;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quiz-modal-input {
+    height: 2.5rem;
+    border-radius: 5px;
+    border: none;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    width: 85%;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.quiz-modal-button {
+    height: 2.5rem;
+    width: auto;
+    background-color: var(--color-papalote);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}

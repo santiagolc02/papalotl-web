@@ -1,0 +1,27 @@
+.circle {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50px;
+    background-color: rgb(100, 100, 100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.circle:hover {
+    background-color: var(--color-papalote);
+}
+
+.circle-selected {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50px;
+    background-color: var(--color-papalote);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease;
+    cursor: pointer;
+}

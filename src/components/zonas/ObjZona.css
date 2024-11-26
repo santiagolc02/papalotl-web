@@ -1,0 +1,40 @@
+.obj-zona {
+    height: auto;
+    width: 100%;
+    background-color: rgb(35, 35, 35);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+}
+
+.obj-zona-quote {
+    font-style: italic;
+    color: rgb(180, 180, 180);
+    font-size: 0.9rem;
+}
+
+.obj-zona-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.obj-zona-crud {
+    width: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bi-pencil-square {
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+}
+
+.bi-trash {
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}

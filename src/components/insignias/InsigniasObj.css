@@ -1,0 +1,27 @@
+.insignias-obj {
+    height: auto;
+    width: 100%;
+    background-color: rgb(50, 50, 50);
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 1rem;
+    box-sizing: border-box;
+    transition: 0.3s ease;
+}
+
+.insignias-obj-selected {
+    height: auto;
+    width: 100%;
+    background-color: var(--color-papalote);
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 1rem;
+    box-sizing: border-box;
+    transition: 0.3s ease;
+}
+
+.insignias-obj:hover {
+    background-color: var(--color-papalote);
+}

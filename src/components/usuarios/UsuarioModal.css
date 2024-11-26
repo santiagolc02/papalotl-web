@@ -1,0 +1,73 @@
+.usuario-modal-overlay {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it's on top */
+}
+
+.usuario-modal {
+    height: auto;
+    width: 50vw;
+    background-color: rgb(50, 50, 50);
+    border-radius: 10px; /* Optional: adds rounded corners */
+    padding: 20px; /* Optional: adds padding inside the modal */
+    box-sizing: border-box;
+    z-index: 1001;
+    color: white;
+}
+
+.usuario-form input {
+    margin-left: 0.5rem;
+    height: 1.5rem;
+    border-radius: 5px;
+    border: none;
+    padding: 0.2rem;
+    box-sizing: border-box;
+    width: 45%;
+}
+
+.usuario-form-section {
+    height: 3rem;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.2rem;
+    
+}
+
+.usuario-form-section-textarea {
+    height: 8rem;
+    border-radius: 5px;
+    /* background-color: green; */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.usuario-textarea {
+    width: 50%;
+    height: 5rem;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+    padding: 0.2rem;
+    resize: none;
+}
+
+.usuario-form-button {
+    height: 2rem;
+    width: 8rem;
+    background-color: var(--color-papalote);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+}

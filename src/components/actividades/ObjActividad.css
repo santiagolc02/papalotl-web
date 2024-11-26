@@ -1,0 +1,36 @@
+.obj-actividad {
+    height: auto;
+    width: 100%;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.obj-actividad-section {
+}
+
+.obj-actividad-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.obj-actividad-crud {
+    width: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bi-pencil-square {
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+}
+
+.bi-trash {
+    color: red;
+    font-size: 1.2rem;
+    cursor: pointer;
+}

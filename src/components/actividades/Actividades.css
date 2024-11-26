@@ -1,0 +1,40 @@
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.actividades {
+    width: 80vw;
+    height: 100vh;
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bi-plus-circle-fill {
+    font-size: inherit; /* Ensure the font size is inherited */
+    box-sizing: content-box; /* Match box-sizing */
+    font-size: 3.5vw;
+    cursor: pointer;
+}
+
+.actividades-child {
+    width: 98%;
+    height: 90%;
+    overflow-y: auto;
+}
+
+.loading-spinner {
+    position: absolute; /* Position the spinner absolutely within its container */
+    top: 45%;
+    left: 58%;
+    animation: spin 0.5s linear infinite;
+    font-size: 80px;
+}
+
+.actividades-count {
+    color: white;
+}

@@ -1,0 +1,109 @@
+.actividad-modal-overlay {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it's on top */
+}
+
+.actividad-modal {
+    position: relative;
+    height: auto;
+    width: 60vw;
+    background-color: rgb(50, 50, 50);
+    border-radius: 10px; /* Optional: adds rounded corners */
+    padding: 20px; /* Optional: adds padding inside the modal */
+    box-sizing: border-box;
+    z-index: 1001;
+    color: white;
+}
+
+.actividad-form {
+    height: 100%;
+    /* background-color: pink; */
+    overflow-y: auto;
+}
+
+.actividad-form-container {
+    height: 80%;
+    /* background-color: green; */
+}
+
+.actividad-form input[type='text'] {
+    margin-left: 0.5rem;
+    height: 1.5rem;
+    border-radius: 5px;
+    border: none;
+    padding: 0.2rem;
+    box-sizing: border-box;
+    width: 20rem;
+    font-weight: 500;
+}
+
+.actividad-form-section {
+    height: 3rem;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+}
+.actividad-form-section-textarea {
+    height: 8rem;
+    border-radius: 5px;
+    /* background-color: green; */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.actividad-form-button {
+    height: 2rem;
+    width: 8rem;
+    background-color: var(--color-papalote);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+}
+
+.actividad-textarea {
+    width: 50%;
+    height: 5rem;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+    padding: 0.2rem;
+    resize: none;
+    font-weight: 500;
+}
+
+.actividad-select {
+    width: auto;
+    height: 1.8rem;
+    margin-left: 0.5rem;
+    padding: 0.2rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-size: 1rem;
+    color: #333;
+}
+
+.actividad-select option {
+    color: #333;
+    background-color: #fff;
+    text-align: center;
+}
+
+.actividad-form input[type='checkbox'] {
+    height: 1.5rem;
+    width: 1.5rem;
+    content: '✔'; /* Or use a background image/icon */
+    margin-left: 0.2rem;
+}

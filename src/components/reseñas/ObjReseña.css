@@ -1,0 +1,51 @@
+.obj-reseña {
+    height: auto;
+    width: 100%;
+    background-color: rgb(50, 50, 50);
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.obj-reseña:hover {
+    background-color: var(--color-papalote);
+}
+
+.obj-reseña-act {
+    height: auto;
+    width: 100%;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.obj-reseña-act-selected {
+    height: auto;
+    width: 100%;
+    background-color: var(--color-papalote);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.obj-reseña-quote {
+    font-style: italic;
+}
+
+.obj-reseña-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

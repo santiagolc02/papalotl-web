@@ -1,0 +1,60 @@
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.anuncios {
+    width: 80vw;
+    height: 100vh;
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bi-plus-circle-fill {
+    font-size: 1rem;
+    cursor: pointer;
+    color: var(--color-papalote);
+    transition: 0.3s ease;
+}
+
+.anuncios-child {
+    width: 98%;
+    height: 90%;
+    overflow-y: auto;
+}
+
+.loading-spinner {
+    position: absolute; /* Position the spinner absolutely within its container */
+    top: 45%;
+    left: 55%;
+    animation: spin 0.5s linear infinite;
+    font-size: 80px;
+    color: var(--color-papalote);
+}
+
+/* Style the entire scrollbar */
+::-webkit-scrollbar {
+    width: 0.5rem;            /* Width of the scrollbar */
+    height: 1rem;           /* Height of the scrollbar (for horizontal scroll) */
+}
+
+/* Style the scrollbar track */
+::-webkit-scrollbar-track {
+    background: #a6a6a6;    /* Track background color */
+    border-radius: 10px;    /* Rounded corners for track */
+}
+
+/* Style the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    background-color: #787878; /* Scrollbar color */
+    border-radius: 10px;    /* Rounded corners for thumb */
+    border: 3px solid #787878; /* Space around thumb */
+}
+
+.anuncios-count {
+    color: white;
+}

@@ -1,0 +1,37 @@
+.obj-usuario {
+    height: auto;
+    width: 100%;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.obj-usuario-section {
+    color: rgb(180, 180, 180);
+}
+
+.obj-usuario-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.obj-usuario-crud {
+    width: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bi-pencil-square {
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+}
+
+.bi-trash {
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}

@@ -1,0 +1,196 @@
+.insignias {
+    width: 80vw;
+    height: 100vh;
+    background-color: rgb(21, 21, 21);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.insignias-left {
+    width: 40%;
+    height: 85%;
+    /* background-color: red; */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.insignias-right {
+    width: 40%;
+    height: 85%;
+    background-color: rgb(50, 50, 50);
+    border-radius: 20px;
+}
+
+.insignias-left-state {
+    width: 100%;
+    height: 10%;
+    /* background-color: purple; */
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.insignias-left-buttons {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: brown; */
+    gap: 2rem;
+}
+
+.insignias-left-button {
+    width: auto;
+    height: auto;
+    padding: 1rem;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.insignias-left-button-selected {
+    width: auto;
+    height: auto;
+    padding: 1rem;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: var(--color-papalote);
+    color: white;
+}
+
+.insignias-left-insignias {
+    width: 100%;
+    height: 85%;
+    /* background-color: rgb(148, 35, 35); */
+    border-radius: 10px;
+    overflow-y: auto;
+    color: white;
+}
+
+.insignia-right-img {
+    width: 100%;
+    height: 50%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.insignias-img {
+    height: 100%;
+    width: auto;
+    max-height: 90%;
+}
+
+.insignia-right-logic {
+    width: 100%;
+    height: 50%;
+    /* background-color: rgb(7, 7, 85); */
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.insignia-right-logic-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.insignia-right-input {
+    height: 5rem;
+    width: 30%;
+    border-radius: 10px;
+    border: none;
+    padding: 0.2rem;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-size: 3rem;
+    text-align: center;
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+
+.insignia-right-button {
+    height: 5rem;
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+    border: none;
+    padding: 0.2rem;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-size: 3rem;
+    text-align: center;
+    margin: 2rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+
+.insignia-right-button-submit {
+    height: 5rem;
+    width: 65%;
+    border-radius: 10px;
+    border: none;
+    padding: 0.2rem;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    transition: 0.3s ease;
+}
+
+.insignia-right-button-submit:hover {
+    background-color: var(--color-papalote);
+    color: black;
+}
+
+.insignia-right-button:hover {
+    background-color: var(--color-papalote);
+}
+
+.insignia-right-multiselect {
+    width: 80%;
+    background-color: black;
+}
+
+.loading-spinner-insignias {
+    animation: spin 0.5s linear infinite;
+    font-size: 80px;
+}
+
+.insignias-left-button-add {
+    width: 20%;
+    aspect-ratio: 1/1;
+    background-color: rgb(50, 50, 50);
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s ease;
+    cursor: pointer;
+    font-size: 4rem;
+}
+
+.insignias-left-button-add:hover {
+    background-color: var(--color-papalote);
+}

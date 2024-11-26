@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--primary-font);
+    font-weight: var(--primary-font-weight);
+}
+
+:root {
+    --color-papalote: rgba(177, 201, 0, 0.504);
+    --primary-color: rgb(20, 20, 20);
+    --primary-font: "Montserrat", sans-serif;
+    
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--primary-color);
+    color: var(--primary-font);
+    overflow: hidden;
+}
+
+.app {
+    display: flex;
+}
